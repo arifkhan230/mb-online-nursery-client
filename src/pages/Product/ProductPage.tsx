@@ -19,13 +19,13 @@ const ProductPage = () => {
   const pages = [...new Array(totalPages).fill(0)];
 
   return (
-    <div>
+    <div className="px-4">
       <Container>
         <h2 className="text-3xl font-heading font-semibold text-center mt-10 mb-16">
           Popular Plants
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {products?.data?.slice(12).map((product: TProduct) => (
+          {products?.data?.slice(0, 8).map((product: TProduct) => (
             <ProductCard key={product?._id} product={product} />
           ))}
         </div>

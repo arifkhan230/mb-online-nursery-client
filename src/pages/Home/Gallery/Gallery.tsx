@@ -1,6 +1,6 @@
 const Gallery = () => {
   return (
-    <div>
+    <div className="px-4">
       <h2 className="text-3xl font-heading font-semibold text-center mt-10 mb-16">
         Gallery
       </h2>
