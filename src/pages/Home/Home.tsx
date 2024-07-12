@@ -1,3 +1,4 @@
+import Footer from "@/components/Shared/Footer";
 import ProductPage from "../Product/ProductPage";
 import Banner from "./Banner/Banner";
 import Category from "./Category/Category";
@@ -10,6 +11,7 @@ const Home = () => {
       <Category />
       <ProductPage />
       <Gallery />
+      <Footer />
     </div>
   );
 };
