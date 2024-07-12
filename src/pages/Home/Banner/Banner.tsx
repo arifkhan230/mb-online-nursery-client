@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <>
       {/* Hero */}
-      <div className="relative overflow-hidden py-24 lg:py-32 bg-[url('https://i.ibb.co/KWZBH3n/8411.jpg')] bg-cover bg-center">
+      <div className="relative overflow-hidden py-24 lg:py-32 bg-[url('https://images.pexels.com/photos/80453/poppy-field-of-poppies-flower-flowers-80453.jpeg?cs=srgb&dl=pexels-pixabay-80453.jpg&fm=jpg')] bg-cover bg-center">
         {/* Black Overlay */}
         <div className="absolute inset-0 bg-[#000000bf]"></div>
         <div className="relative z-10">
