@@ -6,7 +6,7 @@ const ProductCard = ({ product }: { product: TProduct }) => {
   return (
     <div className="bg-white shadow-sm rounded">
       <div>
-        <img className="h-48 w-full object-contain" src={image} alt="" />
+        <img className="h-56 w-full object-cover" src={image} alt="" />
       </div>
       <div className="p-4 text-center">
         <h2 className="text-xl font-semibold mb-2 text-center">{title}</h2>

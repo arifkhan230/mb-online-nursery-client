@@ -1,13 +1,15 @@
+import ProductPage from "../Product/ProductPage";
 import Banner from "./Banner/Banner";
 import Category from "./Category/Category";
-import ProductSection from "./ProductSection/ProductSection";
+import Gallery from "./Gallery/Gallery";
 
 const Home = () => {
   return (
     <div>
       <Banner />
       <Category />
-      <ProductSection />
+      <ProductPage />
+      <Gallery />
     </div>
   );
 };
